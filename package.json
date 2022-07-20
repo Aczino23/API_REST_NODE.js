@@ -1,0 +1,28 @@
+{
+  "name": "api_rest_node",
+  "version": "1.0.0",
+  "description": "API REST en JavaScript con Node.js y Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aczino23/API_REST_NODE.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aczino23/API_REST_NODE.js/issues"
+  },
+  "homepage": "https://github.com/Aczino23/API_REST_NODE.js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
